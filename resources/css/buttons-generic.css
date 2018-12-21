@@ -1,0 +1,38 @@
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #6ab04c;
+    border: 1px solid #6ab04c;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #6ab04c;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #4d8138;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #4d8138;;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #4d8138;;
+}
